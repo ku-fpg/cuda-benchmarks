@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CU_SRCS += \
-../src/CudaMVM.cu 
+../src/MVMv1.cu 
 
 CU_DEPS += \
-./src/CudaMVM.d 
+./src/MVMv1.d 
 
 OBJS += \
-./src/CudaMVM.o 
+./src/MVMv1.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
